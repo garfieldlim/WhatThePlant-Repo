@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:whattheplant/colors.dart';
 import 'dart:ui';
 
-import 'package:whattheplant/login.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -87,8 +85,9 @@ class _PreLogin extends State<PreLogin> {
                 const SizedBox(height: 25),
                 ElevatedButton(
                     onPressed: () {
+                      /*
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => Login()));
+                          MaterialPageRoute(builder: (context) => Login()));*/
                     },
                     child: Text(
                       "I'll use e-mail or phone",
